@@ -3,12 +3,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
+    background-color: rgb(245, 207, 204);
   }
 .page-header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-  background-color: bisque;
+  background-color: rgb(3, 131, 124);
 }
 .page-header ul {
     display: flex;
@@ -21,3 +22,25 @@ body {
     padding:0.5em;
     text-decoration:none;
   }
+.items {
+    width: 80%;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+.items img {
+    width: 100%;
+    height: auto;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: rgb(236, 206, 141);
+  }
+.items button {
+    color: rgb(236, 206, 141);
+    background-color: rgb(3, 131, 124);
+}
+.items p {
+    padding-left: 10px;
+}
