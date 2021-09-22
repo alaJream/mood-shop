@@ -35,5 +35,12 @@ for (let i = 0; i < data.length; i += 1) {
 	button.dataset.price = data[i].price
 	button.innerHTML = "Add to Cart"
 	newDiv.appendChild(button)
+}
+const cart = [ ]
+function addItem() {
+
+}
+
+function showItems() {
     
 }
